@@ -4,5 +4,6 @@
 # Here you can do stuff such as disabling WiFi, switching input profiles,
 # switching keyboard layouts etc.
 # SCRIPT EXECUTES AS NON ROOT!
-
+setbg
+xrandr --output VGA1 --scale 0.711x0.711
 exit
