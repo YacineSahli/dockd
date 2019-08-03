@@ -50,8 +50,15 @@ If you run neither of those, you need to build libthinkpad and dockd from source
 
 libthinkpad needs systemd >=221, so any system running systemd earlier than 221 is not supported currently.   
 However, that will change in the future as the depenency on systemd is no strong.
+!!! IMPORTANT !!!
+enable acpid for dock and undock detection by the dockd daemon.
 
+systemctl start acpid.service
+systemctl enable acpid.service
+
+!!! IMPORTANT !!!
 Here's how to build dockd from source:
+
 
 __1) [Build libthinkpad from source and install it](#)__    
 __2) Install the development dependencies__
