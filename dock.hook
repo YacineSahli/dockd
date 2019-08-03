@@ -4,5 +4,7 @@
 # Here you can do stuff such as disabling WiFi, switching input profiles,
 # switching keyboard layouts etc.
 # SCRIPT EXECUTES AS NON ROOT!
-
+#xrandr --output LVDS1 --scale 1.405x1.405
+setbg
+remaps
 exit

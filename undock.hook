@@ -4,5 +4,6 @@
 # do whatever you want here when the laptop is undocked, like
 # enabling WiFi, turning touchpads on or off etc.
 # THIS SCRIPT EXECUTES AS NON-ROOT!
+setbg
 
 exit
